@@ -1,0 +1,151 @@
+li {
+    list-style: none;
+}
+
+
+.pt {
+    padding-top: 8%;
+}
+
+.icons {
+    right: 5%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.txet-color {
+    color: rgb(12, 179, 12);
+    font-weight: 400;
+}
+
+.prtoduct .btn{
+    opacity: 0;
+    transition: 0.5s;
+    width: 100% !important;
+    padding-block: 3px !important;
+    background-color: rgb(12, 179, 12);
+}
+
+.prtoduct:hover .btn{
+    opacity: 1;
+}
+
+.details .btn {
+    padding-block: 3px !important;
+    background-color: #22db14;
+}
+
+.details .btn:hover {
+    background-color: rgb(12, 179, 12);
+
+}
+
+.updateBtn button{
+    border: 1px solid #22db14;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px 10px ;
+}   
+
+.clearBtn {
+    border-color: #22db14 !important;
+}
+
+.clearBtn:hover {
+    background-color: #22db14 !important;
+}
+
+.inputEmail {
+    width: 80%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inputEmail:focus {
+    border-color: #80bdff; 
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.FooterBtn {
+    background-color: rgb(12, 179, 12);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 30px;
+}
+
+.imgCat {
+    object-position: center;
+    object-fit: cover;
+    height: 300px;
+}
+
+.category-item {
+    transition: 0.3s ease;
+}
+
+.category-item:hover {
+    box-shadow: 0 4px 20px rgba(0, 150, 0, 0.5); 
+    transform: scale(1.1);
+}
+
+
+
+
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    .spinner > div {
+    width: 18px;
+    height: 18px;
+    background-color: green;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+    .spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+    .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+}
+    @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    } 40% { 
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+
+.pos {
+    top: 60px;
+    right: 70px;
+    border-color: #22db14 !important;
+    background-color: rgb(12, 179, 12) !important;
+}
+
+.pos:hover {
+    background-color: #22db14 !important;
+}
